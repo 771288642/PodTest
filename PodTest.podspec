@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "YBQ" => "771288642@qq.com" }
+  s.author             = { "771288642" => "771288642@qq.com" }
   # Or just: s.author    = "771288642"
   # s.authors            = { "771288642" => "771288642@qq.com" }
   # s.social_media_url   = "http://twitter.com/771288642"
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
