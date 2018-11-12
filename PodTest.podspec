@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PodTest"
-  s.version      = "1.0.0"
+  s.version      = "1.0.5"
   s.summary      = "PodTest"
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
 
-          PodTest
+          PodTest,使用
                    DESC
 
   s.homepage     = "https://github.com/771288642/PodTest"
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FirstTestTool/**/*.{h,m}"
+  s.source_files  = "FirstTestTool/FirstTestTool/Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
