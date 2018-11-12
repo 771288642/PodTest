@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MYMathTools.h"
-#import <MYProductTool/MYProductTool.h>
+
 
 @interface ViewController ()
 
@@ -23,14 +22,20 @@
 //    NSLog(@"sum:%ld", (long)sum);
 //    NSInteger product = [MYProduct productNum1:20 num2:30];
 //    NSLog(@"product:%ld", (long)product);
+    
+//    [NSTimeZone resetSystemTimeZone]; // 重置手机系统的时区
+//    NSInteger offset = [NSTimeZone localTimeZone].secondsFromGMT;
+//    offset = offset/3600;
+//    NSString *tzStr = [NSString stringWithFormat:@"%ld", (long)offset];
+//    NSLog(@"%@", tzStr);
+    
+//    NSTimeZone *zone = [NSTimeZone localTimeZone];
+//    NSString *strZoneName = [zone name];
+//    NSString *strZoneAbbreviation = [zone abbreviation];
+//    NSLog(@"名称 是 %@",strZoneName);
+//    NSLog(@"缩写 是 %@",strZoneAbbreviation);
 }
 
-+ (NSInteger)resultNum1:(NSInteger)num1 num2:(NSInteger)num2 {
-    NSInteger sum = [MYMathTools sumNum1:num1 num2:num2];
-    NSLog(@"sum:%ld", (long)sum);
-    NSInteger product = [MYProduct productNum1:num1 num2:num2];
-    NSLog(@"product:%ld", (long)product);
-    return product / sum;
-}
+
 
 @end

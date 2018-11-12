@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 
-+ (NSInteger)resultNum1:(NSInteger)num1 num2:(NSInteger)num2;
+
 
 @end
 

@@ -15,6 +15,7 @@
 		2D99632E2192E42A00F0227E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D99632D2192E42A00F0227E /* main.m */; };
 		2D9963372192E47800F0227E /* libMYMathTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9963362192E47800F0227E /* libMYMathTools.a */; };
 		2D9963392192E62800F0227E /* MYProductTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9963382192E62800F0227E /* MYProductTool.framework */; };
+		2D99633D219926E800F0227E /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D99633C219926E800F0227E /* Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		2D9963352192E46700F0227E /* MYMathTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMathTools.h; sourceTree = "<group>"; };
 		2D9963362192E47800F0227E /* libMYMathTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMYMathTools.a; sourceTree = "<group>"; };
 		2D9963382192E62800F0227E /* MYProductTool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MYProductTool.framework; sourceTree = "<group>"; };
+		2D99633B219926E800F0227E /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		2D99633C219926E800F0227E /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 		2D99631D2192E42200F0227E /* FirstTestTool */ = {
 			isa = PBXGroup;
 			children = (
+				2D99633A2199268A00F0227E /* Classes */,
 				2D9963382192E62800F0227E /* MYProductTool.framework */,
 				2D9963342192E46700F0227E /* MYMathTools */,
 				2D99631E2192E42200F0227E /* AppDelegate.h */,
@@ -87,6 +91,15 @@
 				2D9963362192E47800F0227E /* libMYMathTools.a */,
 			);
 			path = MYMathTools;
+			sourceTree = "<group>";
+		};
+		2D99633A2199268A00F0227E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D99633B219926E800F0227E /* Tool.h */,
+				2D99633C219926E800F0227E /* Tool.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +175,7 @@
 				2D9963232192E42200F0227E /* ViewController.m in Sources */,
 				2D99632E2192E42A00F0227E /* main.m in Sources */,
 				2D9963202192E42200F0227E /* AppDelegate.m in Sources */,
+				2D99633D219926E800F0227E /* Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
